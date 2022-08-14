@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Tutorial</title>
+<!--    <link href="css/style.css" rel="stylesheet"/>
+    <link href="css/simple-hint.min.css" rel="stylesheet" />
+     simple-hint="HyperText Markup Language" class="hint-right-t-notice hint-fade"-->
+  <style >
+    h1,h2{
+      text-align: center;
+    }
+    body{
+        font-size: 20px;
+    }
+    .underline {
+      border-bottom: 1px dotted;
+      text-decoration: none;
+      display: inline-block;
+      height: 1em;
+      line-height: 1.05em;
+      cursor: pointer;
+      color: black;
+    }
+    .bold{
+      font-weight:bold;
+      font-size: large;
+    }
+
+    .ex{
+      background-color: lightgrey;
+      color: red;
+    }
+
+    #div1{
+        background-color: lightgrey;
+    }
+    .blue-text{
+        color: cornflowerblue;
+        background-color: lightgrey;
+    }
+
+  </style>
+</head>
+<body>
+<h1>HTML Tutorial</h1>
+<hr>
+<h2>What is HTML?</h2>
+<p><span class="bold"> Markup Language</span> (<a class="underline" href="https://ru.w3docs.com/" target="_blank">HTML</a>) is the standard markup language for creating web pages and web applications.</p>
+
+<p>Web browsers receive <span class="underline">HTML</span> documents from a web server or from local storage and render the documents into multimedia web pages. <span class="underline">HTML</span> describes the structure of a web page semantically and originally included cues for the appearance of the document.</p>
+
+<p><span class="underline">HTML</span> elements are the building blocks of <span class="underline">HTML</span> pages. With <span class="underline">HTML</span> constructs, images and other objects such as interactive forms may be embedded into the rendered page. <span class="underline">HTML</span> provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. <span class="underline">HTML</span> elements are delineated by <dfn>tags</dfn>, written using angle brackets. Tags such as <span class="ex">&lt;img /&gt;</span> and <span class="ex">&lt;input /&gt;</span> directly introduce content into the page. Other tags such as <span class="ex">&lt;p&gt;</span> surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags, but use them to interpret the content of the page.</p>
+
+<hr>
+<h2>Markup</h2>
+
+<p><span class="underline">HTML</span> markup consists of several key components, including those called <dfn>tags</dfn> (and their <dfn>attributes</dfn>), character-based <dfn>data types, character references</dfn> and <dfn>entity references</dfn>. <span class="underline">HTML</span> tags most commonly come in pairs like <span class="ex">&lt;h1&gt;</span> and <span class="ex">&lt;h1/&gt;</span>, although some represent <dfn>empty elements</dfn> and so are unpaired, for example <span class="ex">&lt;img&gt;</span>. The first tag in such a pair is the <dfn>start tag</dfn>, and the second is the <dfn>end tag</dfn> (they are also called <dfn>opening tags</dfn> and <dfn>closing tags</dfn>).</p>
+
+<p>Another important component is the HTML document type declaration, which triggers standards mode rendering.</p>
+
+<p>The following is an example of the classic "Hello, World!" program:</p>
+
+<div id="div1">
+
+<span class="ex">&emsp;&emsp;&lt;!DOCTYPE html&gt;</span><br>
+<span class="ex">&emsp;&emsp;&lt;html&gt;</span><br>
+    <span class="ex">&emsp;&emsp;&emsp;&emsp;&lt;head&gt;</span><br>
+       <span class="ex">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&lt;title&gt;</span>This is a title<span class="ex">&lt;/title&gt;</span><br>
+    <span class="ex">&emsp;&emsp;&emsp;&emsp;&lt;/head&gt;</span><br>
+            <span class="ex">&emsp;&emsp;&emsp;&emsp;&lt;body&gt;</span><br>
+    <span class="ex">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&lt;p&gt;</span>Hello world!<span class="ex">&lt;/p&gt;</span><br>
+    <span class="ex">&emsp;&emsp;&emsp;&emsp;&lt;/body&gt;</span><br>
+    <span class="ex">&emsp;&emsp;&lt;/html&gt;</span><br>
+    </div>
+<hr>
+<p class="p-size"><b>Tags:</b> <span class="blue-text">CodingScripting</span> <span class="blue-text">head</span> <span class="blue-text">HTML</span> <span class="blue-text">Introduction to HTML</span> <span class="blue-text">Landing</span> <span class="blue-text">Links semantics</span> <span class="blue-text">Structure</span> <span class="blue-text">Text</span></p>
+
+</body>
+</html>
