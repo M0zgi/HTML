@@ -1,0 +1,24 @@
+*{
+    background: lightgray;
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.tex-center{
+    text-align: center;
+}
+
+.footer{
+    position: fixed;
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 15px; /* Поля вокруг текста */
+    width: 100%; /* Ширина слоя */
+}
+
+/*.footer_hr{*/
+/*    top: 620px;*/
+/*    position: relative;*/
+/*}*/
