@@ -12,7 +12,6 @@ h1{
 }
 
 .footer{
-
     left: 0; bottom: 0; /* Левый нижний угол */
     padding: 15px; /* Поля вокруг текста */
     width: 90%; /* Ширина слоя */
@@ -24,16 +23,12 @@ h1{
     border-radius: 30px;
     border: 0px solid gray;
     border: 1px solid gray;
-    /*text-align: center;*/
     margin: 20px;
-
 }
 
 .block{
     display: inline-block;
     text-align: center;
-    /*font-size: 30px;*/
-
 }
 .container{
     padding: 20px;
@@ -41,7 +36,7 @@ h1{
 }
 
 img{
-    margin: 20px;
+    margin: 30px;
 }
 
 /*.footer_hr{*/
