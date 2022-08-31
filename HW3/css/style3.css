@@ -2,16 +2,24 @@
     padding: 0px;
     margin: 10px;
     border: none;
-    color: black;
+    color: white;
     font-size: 20px;
     font-family: sans-serif;
 }
 
+li{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
 .row{
-    width: 50%;
     margin: auto;
 }
 
+#div1{
+    margin: 40px 0px 5px 0px;
+}
 header{
     background: #923158;
     height: 100px;
@@ -31,12 +39,16 @@ main{
     height: 500px;
 }
 
+#main-content{
+    padding: 10px;
+}
+
 #aside1{
-    width: 200px;
+    width: 190px;
     float: left;
     background: #B65B80;
     padding: 20px;
-    margin: 5px 0px 5px 0px;
+    margin: 5px 0px 5px 10px;
 }
 
 #aside2{
@@ -47,11 +59,11 @@ main{
 }
 
 #aside3{
-    width: 100px;
+    width: 90px;
     float: right;
     background: #B65B80;
     padding: 20px;
-    margin: 5px 0px 5px 0px;
+    margin: 5px 10px 5px 0px;
     text-align: center;
 }
 
@@ -66,7 +78,6 @@ footer{
     height: 100px;
     background: #DB92AF;
     padding: 20px;
-    /*margin: 5px 0px 5px 0px;*/
 }
 
 #section2{
@@ -74,5 +85,4 @@ footer{
     height: 100px;
     background: #DB92AF;
     padding: 20px;
-    /*margin: 5px 0px 5px 0px;*/
 }
