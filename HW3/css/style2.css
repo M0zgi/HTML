@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+}
+
+.menu{
+    width: 300px;
+    background: #808080;
+}
+
+li{
+    line-height: 70px;
+}
+
+ul li:hover{
+    background: #5E5E5E;
+    cursor: pointer;
+}
+
+.bootstrap-icons{
+    padding: 0 45px 0 45px;
+    font-size: 20px;
+}
+
+#leftMenu {
+    background: #808080;
+    padding: 0 0 0 0;
+    text-transform: uppercase;
+
+}
+
+a.l-menu{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
