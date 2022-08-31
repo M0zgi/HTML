@@ -1,6 +1,6 @@
 *{
     padding: 0px;
-    margin: 0px;
+    margin: 10px;
     border: none;
     color: black;
     font-size: 20px;
@@ -21,7 +21,7 @@ header{
 menu{
     background: #6E1237;
     padding: 20px;
-    margin: 5px 0px 5px 0px;
+    /*margin: 5px 0px 5px 0px;*/
 }
 
 main{
@@ -43,7 +43,7 @@ main{
     width: 200px;
     background: #B65B80;
     padding: 20px;
-    margin: 5px 0px 5px 0px;
+    /*margin: 5px 0px 5px 0px;*/
 }
 
 #aside3{
@@ -66,7 +66,7 @@ footer{
     height: 100px;
     background: #DB92AF;
     padding: 20px;
-    margin: 5px 0px 5px 0px;
+    /*margin: 5px 0px 5px 0px;*/
 }
 
 #section2{
@@ -74,5 +74,5 @@ footer{
     height: 100px;
     background: #DB92AF;
     padding: 20px;
-    margin: 5px 0px 5px 0px;
+    /*margin: 5px 0px 5px 0px;*/
 }
